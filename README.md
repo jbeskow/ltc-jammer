@@ -2,7 +2,7 @@
 
 this script will
 * read ltc/smpte timecode from audio input
-* calculate offset to system time
+* calculate offset to system time (unix epoch in seconds, with decimals)
 * write offset to a json-file so that it can be used in another application on the same machine to derive time code based on current system time 
 
 ```
